@@ -29,7 +29,7 @@ function DefaultCounterCard({ color, count, title, description, ...rest }) {
 
 // Setting default props for the DefaultCounterCard
 DefaultCounterCard.defaultProps = {
-  color: "info",
+  color: "dark",
   description: "",
   title: "",
 };

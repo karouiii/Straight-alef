@@ -13,6 +13,7 @@ import DefaultFooter from "examples/Footers/DefaultFooter";
 import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 
 // Presentation page sections
+import Carousel from "pages/Presentation/sections/Carousel";
 import Counters from "pages/Presentation/sections/Counters";
 import Information from "pages/Presentation/sections/Information";
 import DesignBlocks from "pages/Presentation/sections/DesignBlocks";
@@ -28,7 +29,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/bg-presentation.jpg";
+import bgImage from "assets/images/white-snow-texture.jpg";
 
 function Presentation() {
   return (
@@ -58,17 +59,17 @@ function Presentation() {
                 },
               })}
             >
-              NEW COLLECTION{" "}
+              NEW COLLECTION
             </MKTypography>
-            {/* <MKTypography
-              variant="body1"
+            <MKTypography
+              variant="h2"
               color="white"
               textAlign="center"
               px={{ xs: 6, lg: 12 }}
               mt={1}
             >
               Streetwear
-            </MKTypography> */}
+            </MKTypography>
           </Grid>
         </Container>
       </MKBox>
@@ -83,6 +84,9 @@ function Presentation() {
           boxShadow: ({ boxShadows: { xxl } }) => xxl,
         }}
       >
+        <Container>
+          <Carousel />
+        </Container>
         <Counters />
         <Information />
         <DesignBlocks />
