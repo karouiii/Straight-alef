@@ -4,7 +4,6 @@ import Grid from "@mui/material/Grid";
 
 import MKBox from "components/MKBox";
 
-// Material Kit 2 React examples
 import RotatingCard from "examples/Cards/RotatingCard";
 import RotatingCardFront from "examples/Cards/RotatingCard/RotatingCardFront";
 import RotatingCardBack from "examples/Cards/RotatingCard/RotatingCardBack";

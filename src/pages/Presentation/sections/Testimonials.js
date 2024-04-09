@@ -6,7 +6,6 @@ import Divider from "@mui/material/Divider";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-// Material Kit 2 React examples
 import DefaultReviewCard from "examples/Cards/ReviewCards/DefaultReviewCard";
 
 // Images

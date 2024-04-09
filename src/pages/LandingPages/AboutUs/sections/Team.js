@@ -5,7 +5,6 @@ import Grid from "@mui/material/Grid";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
-// Material Kit 2 React examples
 import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 
 // Images

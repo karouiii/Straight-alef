@@ -4,7 +4,6 @@ import Grid from "@mui/material/Grid";
 
 import MKBox from "components/MKBox";
 
-// Material Kit 2 React examples
 import DefaultCounterCard from "examples/Cards/CounterCards/DefaultCounterCard";
 
 // Images

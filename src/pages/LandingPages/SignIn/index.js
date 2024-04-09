@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import { sendPasswordResetEmail, signInWithEmailAndPassword } from "firebase/auth";
-import auth from "../../../firebase";
+import { auth } from "../../../firebase";
 
 // react-router-dom components
 import { Link } from "react-router-dom";

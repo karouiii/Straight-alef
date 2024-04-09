@@ -5,6 +5,8 @@ import ContactUs from "layouts/pages/landing-pages/contact-us";
 import SignIn from "layouts/pages/authentication/sign-in";
 import SignUp from "pages/LandingPages/SignUp";
 
+import ProductsList from "pages/LandingPages/ProductsList";
+
 const routes = [
   {
     name: "About us",
@@ -25,6 +27,11 @@ const routes = [
     name: "sign up",
     route: "/pages/authentication/sign-up",
     component: <SignUp />,
+  },
+  {
+    name: "Products List",
+    route: "/pages/landing-pages/products-list",
+    component: <ProductsList />,
   },
   // {
   //   name: "pages",
